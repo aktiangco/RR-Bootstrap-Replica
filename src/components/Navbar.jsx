@@ -9,9 +9,9 @@ import Logo from '../images/instacart-logo.svg'
 const NavBar = () => {
 
     return (
-        <div>
-            <Navbar bg="light" expand="lg" >
-                <Container style={{ borderRadius: '10px', margin: "5px", display: "flex"}}>
+        <div className=" mb-3">
+            <Navbar bg="light" expand="lg"  >
+                <Container style={{ borderRadius: '10px', margin: "5px", display: "flex", width: "100%"}}>
                     {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#Department">
                             Department
@@ -35,21 +35,21 @@ const NavBar = () => {
                     {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
                     <Navbar.Collapse
                         id="basic-navbar-nav"
-                        style={{ borderRadius: '10px', margin: "5px", display: "flex" }}>
-                        <Nav className="mr-auto" style={{margin: "5px" }}>
+                        style={{ borderRadius: '10px', margin: "5px 0 0 20px", display: "flex" }}>
+                        <Nav className="mr-auto" style={{margin: "5px 0 0 20px" }}>
                             <input placeholder='search here'></input>
                         </Nav>
                         <Nav > 
                             <Nav.Link
                                 href="#LogIn"
-                                style={{ color: "white", textDecoration: "none", margin: "4px", fontSize: "18px", fontWeight: "bold"}}
+                                style={{ color: "white", textDecoration: "none", margin: "5px 0 0 100px", fontSize: "18px", fontWeight: "bold"}}
                             >
                                 Log In
                             </Nav.Link>
                             
                             <Button
                                 variant="Success"
-                                style={{ borderRadius: '10px', margin: "4px", fontSize: "18px", fontWeight: "bold"}}
+                                style={{ borderRadius: '10px', margin: "5px 0 0 20px", fontSize: "18px", fontWeight: "bold"}}
                             >
                                 Sign Up
                             </Button>{' '}
