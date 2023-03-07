@@ -13,7 +13,7 @@ const NavBar = () => {
     return (
         <div className="" style={{width: "100%",backgroundColor: "rgb(52, 80, 72)" }}>
             {[false].map((expand) => (
-                <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+                <Navbar key={expand} bg="" expand={expand}>
                     <Container
                       fluid
                         style={{ flexWrap: "none",backgroundColor: "rgb(52, 80, 72)", width: "100%" }}

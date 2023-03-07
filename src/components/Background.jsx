@@ -1,11 +1,11 @@
 import { Form } from "react-bootstrap"
-import { Card } from "react-bootstrap"
+import Card from "react-bootstrap/card"
 import BACKLogo from '../images/homepage_background.jpeg'
 
 const Background = () => {
     return (
-        <div className="p-2" style={{ display: "flex", flexDirection: "row" }}>
-            <div style={{backgroundColor: "#deedd6", width: "100%"}}>
+        <div style={{ backgroundColor: "#deedd6", display: "flex", flexDirection: "row" }}>
+            <div style={{ width: "100%"}}>
                 <Card style={{ margin: "", padding: "40px", border: "none", backgroundColor: "transparent", width: "600px"}}>    
                 <Card.Text className="p-2" style={{ fontSize: "2.5em", fontWeight: "bold"}}>
                     Order groceries for delivery
